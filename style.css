@@ -1,0 +1,59 @@
+body { font-family: Arial; background: #f0f2f5; }
+.container { width: 500px; margin: 30px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px gray; }
+h1 { text-align: center; color: #14a800; }
+.buttons { display: flex; justify-content: space-between; margin-bottom: 20px; }
+button { padding: 10px; cursor: pointer; border: none; border-radius: 5px; background: #222; color: white; }
+.add-btn { background: #14a800; width: 100%; margin-top: 10px; }
+input { width: 95%; padding: 10px; margin: 5px 0; border: 1px solid #ccc; border-radius: 5px; }
+.section { margin-top: 20px; }
+.hidden { display: none; }
+#staffList { margin-top: 10px; }
+.staff-card { background: #eee; padding: 10px; margin: 5px 0; border-radius: 5px; }
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial; }
+
+body { 
+    background: linear-gradient(135deg, #14a800 0%, #0a5c00 100%);
+    min-height: 100vh;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container { 
+    width: 100%;
+    max-width: 550px; 
+    background: white; 
+    padding: 25px; 
+    border-radius: 20px; 
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+h1 { 
+    text-align: center; 
+    color: #14a800; 
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+h1::after {
+    content: "Manage Your Team Easily";
+    display: block;
+    font-size: 14px;
+    color: #777;
+    font-weight: normal;
+    margin-top: 5px;
+}
+
+.buttons { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin: 20px 0; 
+}
+
+.buttons button { 
+    padding: 12px 5px; 
+    cursor: pointer; 
+    border: none; 
+    border-radius: 10px; 
+    background: #222; 
